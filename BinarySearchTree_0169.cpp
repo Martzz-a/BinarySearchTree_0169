@@ -125,7 +125,7 @@ public:
 
 int main()
 {
-    BinaryTree obj;
+    BinaryTree x;
     while (true)
     {
         cout << "\nMenu" << endl;
@@ -145,23 +145,23 @@ int main()
                 cout << "Enter a word: ";
                 string word;
                 cin >> word;
-                obj.insert(word);
+                x.insert(word);
                 break;
             }
             case '2':
             {
-                obj.inorder(obj.ROOT);
+                x.inorder(x.ROOT);
                 break;
             }
             case '3':
             {
-                obj.preorder(obj.ROOT);
+                x.preorder(x.ROOT);
                 break;
             }
             
             case '4':
             {
-                obj.postorder(obj.ROOT);
+                x.postorder(x.ROOT);
                 break;
             }
             case '5':
@@ -174,5 +174,4 @@ int main()
             }
         }
     }
-    return 0;
 }
