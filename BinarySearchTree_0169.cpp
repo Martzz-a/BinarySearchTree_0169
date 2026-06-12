@@ -22,4 +22,6 @@ public:
 //membuat class binary tree
 class BinaryTree {
 
+// memberi akses modifier dan deklaraso object
+public:
 };
