@@ -18,3 +18,8 @@ public:
         rightChild = r;
     }
 };
+
+//membuat class binary tree
+class BinaryTree {
+
+};
