@@ -25,4 +25,9 @@ class BinaryTree {
 // memberi akses modifier dan deklaraso object
 public:
     Node* ROOT;
+
+    //membuat constructor dan memberikan nilai awal untuk ROOT
+    BinaryTree() {
+        ROOT = nullptr;
+    }
 };
