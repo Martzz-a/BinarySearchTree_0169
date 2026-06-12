@@ -10,4 +10,11 @@ public:
     Node* leftChild;
     Node* rightChild;
 
+    //membuat constructor untuk node
+    Node(string i, Node* l, Node* r) {
+        //memberi nilai parameter ke variable
+        info = i;
+        leftChild = l;
+        rightChild = r;
+    }
 };
